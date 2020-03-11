@@ -1,0 +1,12 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: microservice-config
+
+  cloud:
+    config:
+      server:
+        git:  #远程库的git地址，注意梯形缩进，否则会报错
+          uri: https://github.com/Fateasstring/microservice-cloud-config.git

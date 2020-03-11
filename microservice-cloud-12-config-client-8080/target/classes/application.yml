@@ -1,0 +1,7 @@
+#application.yml是用户级别的配置项
+server:
+  port: 8080
+
+spring:
+  application:
+    name: microservice-config-client
